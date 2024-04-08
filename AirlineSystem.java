@@ -69,7 +69,7 @@ public class AirlineSystem implements AirlineInterface {
         }
     }
 
-    public Set<ArrayList<String>> fewestStopsItinerary(AirlineGraph ag, String source, String transit, String destination) throws AirportNotFoundException {
+    public Set<ArrayList<String>> fewestStopsItinerary(AirlineGraph ag, String source, String destination, String transit) throws AirportNotFoundException {
        try { //LWR FEN XXS
 
             ArrayList[] arr = new ArrayList[1];
